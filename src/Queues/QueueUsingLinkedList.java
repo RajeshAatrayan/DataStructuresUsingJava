@@ -65,7 +65,7 @@ public class QueueUsingLinkedList {
         ptr = queue.front;
 
         while (ptr != queue.rear) {
-            System.out.print(ptr.data+" ");
+            System.out.print(ptr.data+" esa");
             ptr = ptr.next;
         }
         System.out.print(ptr.data);
